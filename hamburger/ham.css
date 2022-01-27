@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-headcontct button {
+    float: right;
+    background-color: #1B1B1B;
+    font-size: 16px;
+    border-radius: 55px;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-right: 14px;
+    padding-left: 14px;
+    background-color: #1B1B1B;
+}
+
+.btn-headcontct button:hover {
+    color: #2DA8D8FF
+}
+
+.home-contct li {
+    list-style: none;
+    margin: 15px auto;
+    color: white;
+}
+
+.home-contct li h1 {
+    font-weight: bold;
+}
+
+.home-contct li h4 {
+    font-weight: bold;
+}
+
+.contact-border i a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact-border a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-i {
+    display: flex;
+}
+
+.social-i i {
+    color: white;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.home-set li a {
+    color: white;
+}
+
+.ham-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 100%;
+    background-color: #1B1B1B;
+    /* top: 0; */
+    /* right: -100%; */
+    /* align-items: center; */
+    overflow: hidden;
+    border-radius: 8px;
+    transition: bottom .8s cubic-bezier(1, 0, 0, 1);
+}
+
+.change {
+    bottom: 0;
+    /* right: 0; */
+}
+
+.hamburger-menu {
+    width: 35px;
+    height: 30px;
+    position: fixed;
+    top: 2.5%;
+    right: 13%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #1B1B1B;
+    transition: all 0.8s;
+}
+
+.change .line-1 {
+    transform: rotateZ(-45deg) translate(-8px, 6px);
+    background-color: white;
+}
+
+.change .line-2 {
+    opacity: 0;
+}
+
+.change .line-3 {
+    transform: rotateZ(45deg) translate(-8px, -6px);
+    background-color: white;
+}
+
+.nav-list {
+    text-align: right;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 25px;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .headfullscreen {
+        display: none;
+    }
+    .home-contct {
+        text-align: center;
+    }
+    .menu {
+        display: block;
+    }
+    .social-i {
+        justify-content: center;
+    }
+    .change .line-1 {
+        transform: rotateZ(-45deg) translate(-8px, 6px);
+        background-color: white;
+    }
+    .change .line-2 {
+        opacity: 0;
+    }
+    .change .line-3 {
+        transform: rotateZ(45deg) translate(-8px, -6px);
+        background-color: white;
+    }
+}

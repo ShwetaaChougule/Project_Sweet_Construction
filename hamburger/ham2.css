@@ -1,0 +1,91 @@
+.home-contct li {
+    list-style: none;
+    margin: 0px auto;
+    color: white;
+}
+
+.home-contct li h1 {
+    font-weight: bold;
+}
+
+.home-contct li h4 {
+    font-weight: bold;
+}
+
+.contact-border i a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact-border a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-i {
+    display: flex;
+}
+
+.social-i i {
+    color: white;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.home-set li a {
+    color: white;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #1b1b1b;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: white;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 22px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+main {
+    height: 100vh;
+}

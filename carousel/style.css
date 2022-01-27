@@ -1,0 +1,144 @@
+.paddingbottom {
+    padding-bottom: 50px;
+}
+.paddingtop {
+    padding-top: 100px;
+}
+.owl-carousel .owl-nav button.about-next {
+    background-color: #e6e4e4;
+    border: none;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    opacity: 0.9;
+    outline: none;
+    margin: auto;
+}
+
+.owl-carousel .owl-nav button.about-next:hover {
+    background: #869791;
+    color: #fff;
+    text-decoration: none;
+}
+
+.caros-prev {
+    position: absolute;
+    left: -25px;
+    top: 40%;
+}
+
+.caros-next {
+    position: absolute;
+    right: -2%;
+    top: 40%;
+}
+
+.owl-carousel .owl-nav button.caros-prev {
+    background-color: #e6e4e4;
+    border: none;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    opacity: 0.9;
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.caros-next {
+    background-color: #e6e4e4;
+    border: none;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    opacity: 0.9;
+    outline: none;
+    margin: auto;
+}
+
+.owl-carousel .owl-nav button.about-next:hover {
+    background: #869791;
+    color: #fff;
+    text-decoration: none;
+}
+
+.owl-carousel .owl-nav button.caros-next:hover {
+    background: #869791;
+    color: #fff;
+    text-decoration: none;
+}
+
+.owl-carousel .owl-nav button.caros-prev:hover {
+    background: #869791;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Carousel section style */
+
+.carou-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.item a p {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.item h5 {
+    font-weight: bold;
+    padding-top: 18px;
+    padding-bottom: 5px;
+}
+
+.item {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.item img {
+    border-radius: 8px;
+    width: 100%;
+    height: 280px;
+}
+
+.item i {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    bottom: 3%;
+    right: 4%;
+    margin: auto;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -25px;
+    top: 30%;
+}
+
+.owl-next {
+    position: absolute;
+    right: -25px;
+    top: 30%;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background: #e6e4e4;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    opacity: 0.9;
+    outline: none;
+    margin: auto;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    border-radius: 90%;
+}
